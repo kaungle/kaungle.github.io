@@ -1,0 +1,32 @@
+html {
+	background-color: light-blue;
+	height: 900px;
+	width: 1200px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+p {
+	color:red;
+	font-family:Courier, Verdana;
+}
+img {
+	height: 200px;
+	width: 200px;
+}
+span {
+	color:red;
+	font-family:Arial;
+}
+h1 {
+	color:red;
+	font-family:Rockwell;
+}
+h2 {
+	font-family:Verdana;
+	font-size:14px
+}
+h6 {
+	background-color:white;
+}
