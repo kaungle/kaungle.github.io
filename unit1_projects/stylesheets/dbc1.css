@@ -1,5 +1,5 @@
 html {
-	background-color: light-blue;
+	background-image: url("http://www.folsom.ca.us/images/PIO/folsomaerialcompressed.gif");
 	height: 900px;
 	width: 1200px;
 }
@@ -8,34 +8,41 @@ a {
 	text-decoration: none;
 }
 p {
-	color:red;
+	color:white;
 	font-family:Courier, Verdana;
-}
-img {
-	height: 200px;
-	width: 200px;
+	font-size: 22px;
 }
 span {
-	color:red;
+	color:white;
 	font-family:Arial;
+	font-size: 24px;
 }
 h1 {
-	color:red;
+	color: white;
 	font-family:Rockwell;
 }
 h2 {
 	font-family:Verdana;
-	font-size:14px
+	font-size:24px;
+	color: white;
+	display: text;
 }
 h6 {
 	background-color:white;
 }
-#home {
-	width: 100px;
-	height: 100px;
-	background: black;
+li {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Calibri;
+}
+ul {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 26px;
+	font-family: Calibri;
 }
 .prima {
-	width: 75px;
-	height: 75px;
+	text-align: center;
+	font-size: 22px;
 }
