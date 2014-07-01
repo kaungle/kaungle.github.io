@@ -1,0 +1,81 @@
+html {
+	background-image: url("http://www.wallchan.com/images/sandbox/69329-black-metal-hole-by-freeman.jpg");
+	background-color: light;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	font-family: Athelas;
+}
+#header {
+	font-size: 44px;
+	font-weight: bold;
+	background-color: dimgrey;
+	color: ivory;
+	text-align: center;
+	text-decoration: underline;
+	float: center;
+	letter-spacing: 2px;
+	padding: 1px;
+	position: relative;
+}
+#subheader {
+	text-align: center;
+	position: relative;
+	text-decoration: underline overline;
+	color: ivory;
+	float: center;
+	font-size: 37px;
+}
+p {
+	font-size: 22px;
+	font-weight: bold;
+	background-color: dimgrey;
+	color: ivory;
+}
+#p1 {
+	font-size: 36px;
+}
+a {
+	text-decoration: underline overline;
+	color: ivory;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+}
+a:hover {
+	color: gold;
+}
+ul {
+	list-style-type: none;
+	background-color: dimgray;
+	font-size: 28px;
+}
+h2 {
+	color: ivory;
+	font-size: 44px;
+	text-decoration: underline;
+}
+h3 {
+	color: ivory;
+	background-color: dimgrey;
+	font-size: 37px;
+	text-decoration: underline overline;
+}
+#main {
+	text-align: center;
+	position: relative;
+	float: center;
+	color: ivory;
+}
+#footer {
+	float: center;
+	background-color: dimgrey;
+	background-position: center bottom;
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	color: ivory;
+}
+#footer ul {
+	font-size: 20px;
+}
