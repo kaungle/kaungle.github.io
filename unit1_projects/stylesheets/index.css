@@ -1,33 +1,39 @@
 html {
 	background-image: url("http://www.hdesktops.com/wp-content/uploads/2014/02/hd-space-wallpaper-6.jpg"); 
+	float: center;
+	display: inline-block;
 }
-#title {
+#Title {
 	text-align: center;
 	font-family: Calibri;
 	color: yellow;
 	font-size: 199px;
 	font-weight: bold;
-	float: center;
+	position: relative;
 }
-#me {	
+#Header {	
 	text-align: center;
 	font-family: Calibri;
 	color: yellow;
 	font-size: 77px;
 	position: relative;
-	float: center;
 }
-#blogs {
+#Footer {
 	color: yellow;
+	font-family: Calibri;
+	font-size: 68px;
 	position: relative;
 	text-align: center;
+	display: block;
+}
+h2 {
 	float: center;
+	position: center;
+	color: yellow;
 }
-h3 {
-	font-size: 77px;
-	font-weight: bold;
-	text-decoration: overline;
+a {
+
 }
-h4 {
-	font-size: 63px;
+a:hover {
+	color: yellow;
 }
