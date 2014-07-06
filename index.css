@@ -5,15 +5,36 @@ html {
 	text-align: center;
 	font-family: Calibri;
 	color: yellow;
-	font-size: 199px;
+	font-size: 179px;
 	font-weight: bold;
+	position: relative;
 }
-#Me p: a {	
-	text-align: center;
+#Header {	
 	font-family: Calibri;
 	color: yellow;
-	font-size: 77px;
+	font-size: 44px;
+	position: relative;
 }
-#Blogs {
-	font-size: 
+#Footer {
+	color: yellow;
+	font-family: Calibri;
+	font-size: 40px;
+	position: relative;
+	text-align: center;
+}
+h1 {
+	float: center;
+	position: center;
+	color: yellow;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a {
+	font-family: Calibri;
+	font-style: 40px;
+	color: yellow;
+	text-decoration: none;
+}
+a:hover {
+	color: #32CD32;
 }
