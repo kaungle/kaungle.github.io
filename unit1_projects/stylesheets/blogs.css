@@ -1,6 +1,5 @@
 html {
 	background-image: url("http://www.wallchan.com/images/sandbox/69329-black-metal-hole-by-freeman.jpg");
-	background-color: light;
 	display: inline-block;
 	height: 100%;
 	width: 100%;
@@ -19,6 +18,7 @@ html {
 	position: relative;
 }
 #subheader {
+	background-color: dimgrey;
 	text-align: center;
 	position: relative;
 	text-decoration: underline overline;
@@ -78,4 +78,5 @@ h3 {
 }
 #footer ul {
 	font-size: 20px;
+	text-decoration: underline;
 }

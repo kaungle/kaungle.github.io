@@ -1,8 +1,7 @@
 html {
 	background-image: url("http://www.hdesktops.com/wp-content/uploads/2014/02/hd-space-wallpaper-6.jpg"); 
 	float: center;
-	display: inline-block;
-}
+}	
 #Title {
 	text-align: center;
 	font-family: Calibri;
@@ -21,18 +20,20 @@ html {
 #Footer {
 	color: yellow;
 	font-family: Calibri;
-	font-size: 68px;
+	font-size: 88px;
 	position: relative;
 	text-align: center;
-	display: block;
+	margin-top: 100px;
 }
-h2 {
+h1 {
 	float: center;
 	position: center;
-	color: yellow;
+	color: ivory;
 }
 a {
-
+	font-family: Calibri;
+	font-style: 84px;
+	color: yellow;
 }
 a:hover {
 	color: yellow;
