@@ -8,6 +8,7 @@ html {
 	font-size: 179px;
 	font-weight: bold;
 	position: relative;
+	text-decoration: underline;
 }
 #Header {	
 	font-family: Calibri;
@@ -18,7 +19,7 @@ html {
 #Footer {
 	color: yellow;
 	font-family: Calibri;
-	font-size: 40px;
+	font-size: 34px;
 	position: relative;
 	text-align: center;
 }
