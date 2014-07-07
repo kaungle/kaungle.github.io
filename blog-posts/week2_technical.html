@@ -1,0 +1,49 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>KevinAungle.com</title>
+		<link type="text/css" rel="stylesheet"href="blogstech.css" /> 
+	</head>
+	<body>
+		<div id="header">
+			<h1>Technical Blog, Part Deux</h1>
+		</div>
+		<div id="subheader">	             
+			<h2>Displaying Inline vs. Inline Blocks</h2>
+		</div>	
+		<br>
+		<div id="main">
+			<h3>"What Are You Talking About?"
+				<p>
+					When stylizing webpages in CSS-land, developers have the option of using code to 'display'content -- text, images, etc. -- in different ways. The most direct way to go about this, as you can imagine, is by simply typing 'display' and a specific value into your stylesheet. Now, this is where 'inline' & 'inline blocks' come into the equation, as two of the more commong variables assigned to the 'display' property.
+				</p>
+			<br>	
+			<h3>"What do you mean you 'spreadsheet?'</h3>
+				<p> 
+					That is just a fancy name for the file we use to decorate web pages. In this case, we might add some code that looks something like this:
+
+					ul.products li {
+    					width: 200px;
+    					display: inline-block;
+    				}
+
+    				to order our program to display the list values contained within the products unordered list class. 
+    		<br>		
+    		<h3>Inline Block?</h3>
+    			<p> 
+					When CSS describes how to display elements, 'inline' refers to those that take up only the space they need and can share their horizontal line with other elements. 'Block' elements, on the other hand, take up the full width of their parent elements and have their own horizontal line. 
+
+					Combining these terms, 'inline-block', makes an element sit inline while still having block-level children elements (or elements within elements) that can take up multiple lines. 
+			<br>
+			<img src="http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png" />	
+			<br>
+		</div>
+		<div id="footer">
+			<h>Created by Kevin Aungle</h>
+				<ul><li><a href="http://www.github.com/kaungle">GitHub</a></li>
+				<li><a href="https://www.facebook.com/kevin.aungle">Facebook</a></li>
+				<li><a href="mailto:kaungle@gmail.com">Email</a></li>
+				</ul>
+        </div>	
+	</body>
+</html>
