@@ -3,23 +3,23 @@ html {
 }
 #Title {
 	text-align: center;
-	font-family: Calibri;
+	font-family: Franklin Gothic;
 	color: yellow;
-	font-size: 179px;
+	font-size: 169px;
 	font-weight: bold;
 	position: relative;
 	text-decoration: underline;
 }
 #Header {	
-	font-family: Calibri;
+	font-family: Franklin Gothic;
 	color: yellow;
-	font-size: 44px;
+	font-size: 40px;
 	position: relative;
 }
 #Footer {
 	color: yellow;
-	font-family: Calibri;
-	font-size: 34px;
+	font-family: Franklin Gothic;
+	font-size: 32px;
 	position: relative;
 	text-align: center;
 }
@@ -31,10 +31,20 @@ h1 {
 	font-weight: bold;
 }
 a {
-	font-family: Calibri;
-	font-style: 40px;
+	font-family: Franklin Gothic;
+	font-size: 32px;
 	color: yellow;
 	text-decoration: none;
+}
+ul li {
+	font-family: Franklin Gothic;
+	font-size: 32px;
+	color: yellow;
+	font-weight: bold;
+	list-style-type: none;
+}
+h3 {
+	text-decoration: underline;
 }
 a:hover {
 	color: #32CD32;
@@ -42,6 +52,9 @@ a:hover {
 @media screen and (max-width: 960px){
   header {
     height:300px;   
+  }
+  img {
+  	width: 100%;
   }
  h1 {
     font-size: 1.1em;
@@ -64,7 +77,10 @@ a:hover {
    #Footer {
    	display: none;
    }
+   img {
+   	width: 100%;
+   }
    a {
-   	font-size: 32px;
+   	font-size: 22px;
    }
 }
