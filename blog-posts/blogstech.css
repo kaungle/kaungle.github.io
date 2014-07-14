@@ -70,6 +70,9 @@ h2 {
 	font-size: 44px;
 	text-decoration: underline;
 }
+h3 {
+	font-size: 36px;
+}
 #main {
 	text-align: center;
 	position: relative;
