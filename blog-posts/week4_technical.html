@@ -1,0 +1,46 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>KevinAungle.com</title>
+		<link type="text/css" rel="stylesheet"href="blogstech.css" /> 
+	</head>
+	<body>
+		<div id="header">
+			<h1>Enumerables!</h1>
+			<a href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/"><img src="http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2013/10/collections_enum.jpg" /></a>
+		</div>	
+		<div id="subheader">
+			<h2>The #cycle Method!</h2>
+		</div><br>
+		<div id="main">
+			<h3>What is Enumerable?</h3>
+				<p>
+					Becasue Ruby has modules that serve as containers for methods and constants, code can be shared between multiple unrelated classes with Enumerable. An 'each' method defines the parameters with which the iteration of Enmerable acts upon a collection, and gives you access to a whole bunch of awesome methods! Some of the instance methods available to Enumerable can even create infinite loops through a collection. 
+				</p>
+				<br>
+			<h3>What does Enumerable#cycle Do?</h3>
+				<p>
+					This instance method can be passed a numerical argument and will totally iterate through a collection that number of times. If '#cycle()' is given, the loop is infinite. The method provides a cleaner way to acomplish this iteration without using the 'times' or 'each' methods.
+				</p>
+				<br>	
+			<h3>When/How To Use Enumerable#cycle?</h3>
+				<p>
+					Given an array or string of data, '#cycle' can loop through a collection a specified number of times. It cannot, however, tell the number of elements to cycle through without an Enumerator. Nevertheless, this method can be used to assert control over which objects to iterate through in a collection. It is like using '#each' in an infinite loop.
+					<br>
+					DON'T USE #CYCLE {}! This will create a real deal infinite loop in your code.
+					<br>
+					This method is useful, though, in providing a faster and cleaner way to loop through a collection. 
+				</p>
+		</div>
+		<div id="footer">
+			<h>Created by Kevin Aungle</h>
+				<ul>
+					<li><a href="http://www.github.com/kaungle">GitHub</a></li>
+					<li><a href="https://www.facebook.com/kevin.aungle">Facebook</a></li>
+					<li><a href="mailto:kaungle@gmail.com">Email</a></li>
+					<li><a href="kaungle.github.io/index.html">Home</a></li>
+				</ul>
+        </div>	
+	</body>
+</html>		 			
+
