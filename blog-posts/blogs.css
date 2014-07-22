@@ -63,6 +63,7 @@ ul {
 	list-style-type: none;
 	background-color: dimgray;
 	font-size: 28px;
+	float: center;
 }
 h2 {
 	color: ivory;
