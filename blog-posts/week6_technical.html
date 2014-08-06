@@ -1,0 +1,51 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>KevinAungle.com</title>
+		<link type="text/css" rel="stylesheet"href="blogstech.css" /> 
+	</head>
+	<body>
+		<div id="header">
+			<h1>Classy Methods</h1>
+			<img src="http://4.bp.blogspot.com/-FeDhZ_krB8c/Tygq2JCM8-I/AAAAAAAAADM/vn2ARU5FkfQ/s1600/classy_trollcat.jpg" /></a>
+		</div>	
+		<div id="subheader">
+			<h2></h2>
+		</div><br>
+		<div id="main">
+			<h3>You Stay Classy, Class Methods!</h3>
+				<p>
+					Adding more functionality and flexibility to classes, Class Methods are like any other Ruby methods except that they send their messages to the class object itself instead of one of its' instances. Class Methods are common and widely used in object-oriented programming languages, as they typically are quite distinct of instance methods. In Ruby, however, instance methods and classs methods have quite a bit in common -- again, their only main difference here is that these methods are defined directly on a Class object. Nevertheless, these methods can come in quite handy!
+					<br>
+					<img src="http://www.low-rates-senior-discounts.com/handyman/image/cartoon+gif+handyman.gif" />
+				</p>
+				<br>
+			<h3>How?! When?! Why?!</h3>
+				<p>
+					In Ruby, some Class functions cannot be completed by individual Class instances. A commonly used example is the Class Method '::new', often used to establish a new Class object. Since this object must first be created by '::new', we cannot call an instance of it just yet! Using this '::new' method sends a message directly to the Class itself  to create a new object. And, it turns out, being able to send messages straight to a Class can be pretty powerful. 
+				</p>
+				<br>	
+				<p>
+					Class Methods can also be created to broaden the use of certain messages being sent to that Class. For example, if we want to send a message to all objects of a certain Class then we simply can attach a method to the Class itself. Sometimes, we want a method assigned to the supervisory level of a Class like this rather than being only read during a certain instance of the Class. To be clear, Class Methods are still appear similar to those instance methods from which they are differentiated. 
+					<br>
+					<img src="http://s24.postimg.org/5563az8cl/Screen_Shot_2014_08_06_at_9_34_45_AM.png" />
+					<br>
+					As you can see above, the methodology for creating these two methods is almost identical! The only differene here is that '::hello' sends a message to all objects of the 'Test' Class, while '#goodbye' sends its message in this instance of 'Test'. It is important to remember, here, that Class objects DO NOT share their own particular methods with instances of themselves. It is this fine distinction that makes Class Methods useful; with them, we have a way to organize every Class object in a program with particular methods. 
+				</p>
+				<br>
+				<h3>Class Method Controversy??</h3>
+				<p>
+					Some programmers criticize the use of a global Class Method, saying it can produce more bulky code and cause confusion amongst the objects in your program. Some say that using object instances whenever possible to pass your methods will produce cleaner and more functional code. While this point is even more valid in an Object Oriented Programming environment, Class Methods are still useful for those times when no object instance is available yet (as we saw with '::new' and often see with '::open'). Personally, I would not go so far as to say that Class Methods are useless. But, on the other hand, I also acknowledge that instance methods in Ruby are almsot just as handy!
+				</p>
+		</div>
+		<div id="footer">
+				<ul>
+					<li>Created by Kevin Aungle</li><br>
+					<li><a href="http://www.github.com/kaungle">GitHub</a></li>
+					<li><a href="https://www.facebook.com/kevin.aungle">Facebook</a></li>
+					<li><a href="mailto:kaungle@gmail.com">Email</a></li>
+					<li><a href="http://kaungle.github.io">Home</a></li>
+				</ul>
+        </div>	
+	</body>
+</html>		 			
